@@ -81,3 +81,10 @@ h1{
         width: 300px;
     }
 }
+
+
+@media  screen and (max-width: 760px){
+    #carrossel{
+        width: 360px;
+    }
+}

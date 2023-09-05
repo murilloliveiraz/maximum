@@ -55,8 +55,12 @@
         max-width: 600px;
         justify-content: center;
         margin-top: 0;
+        text-align: center;
     }
-
+    
+    .reviews-section h2 {
+        font-size: 18px;
+    }
     .review{
         width: 100%;
     }

@@ -5,8 +5,8 @@ import './hero.css'
 const Hero = () => {
   return (
     <section className='hero-section' id='hero'>
-      <div>
-        <img src={logomini } className='logo' alt="" />
+      <div className='div-hero-logo'>
+        <img src={logomini} className='logo' alt="" />
       </div>
       <div>
         <img src={bmwX6} className='carro' alt="" />
