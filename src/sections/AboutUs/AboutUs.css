@@ -1,0 +1,26 @@
+.about-us{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    height: 600px;
+}
+
+.texto-sobre{
+    width: 600px;
+}
+
+.sobre-logo{
+    width: 350px;
+    height: 350px;
+    border-radius: 12px;
+}
+
+.titulo-sobre{
+    font-size: 32px;
+    color: #89DDE1;
+}
+
+.paragrafo-sobre{
+    text-align: justify;
+}

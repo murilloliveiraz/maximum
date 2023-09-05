@@ -1,0 +1,32 @@
+.hero{
+    background: url(../../assets/images/black-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-section{
+    overflow: hidden;
+    display: flex;
+    margin-top: 36px;
+    width: 100%;
+    min-height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.carro{
+    transform: translate(150px, 0);
+    width: 810px;
+    height: 610px;
+}
+
+.logo{
+    width: 554px;
+    height: 235px;
+}

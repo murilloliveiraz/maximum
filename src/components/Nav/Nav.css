@@ -1,0 +1,47 @@
+header {
+    background-color: #f6f6f6;
+    margin-top: 8px;
+    height: 80px;
+    width: 95%;
+    background-color: rgba(53, 53, 53, 0.264);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(186, 186, 186, 0.355);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 22px;
+    font-family: "Inter", sans-serif;
+}
+
+nav{
+    display: flex;
+}
+
+#menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    gap: 26px;
+}
+
+a {
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 300ms ease;
+}
+
+a:hover{
+    color: #89DDE1;
+    border-bottom: 3px solid #89DDE1;
+}
+
+.logo-nav{
+    width: 200px;
+    height: 50px;
+}

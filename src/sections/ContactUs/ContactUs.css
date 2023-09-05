@@ -1,0 +1,46 @@
+.contact-section{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin: 0;
+}
+
+.contact-title{
+    color: #89DDE1;
+    margin-bottom: 12px;
+}
+
+iframe{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.contacts{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.contact-list{
+    width: 400px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.contact-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.icon2{
+    width: 14px;
+}
