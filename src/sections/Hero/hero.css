@@ -37,17 +37,17 @@
         max-width: 100%;
         flex-direction: column;
         margin-top: 130px;
+
     }
 
     .logo{
-        width: 400px;
-        height: 200px;
+        width: 90%;
+        height: 160px;
     }
 
     .carro{
         transform: translate(70px, 0);
         width: 510px;
         height: 410px;
-        z-index: 1;
     }
 }

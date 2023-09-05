@@ -13,9 +13,9 @@ const OurServices = () => {
   }, [])
 
   return (
-    <section className='OurServices' id='ourServices'>
+    <section className='ourServices' id='ourServices'>
       <h1>Nossos Serviços</h1>
-      <motion.div ref={carousel} className='carousel' whileTap={{cursor: "grabbing"}}>
+      <motion.div ref={carousel} className='carousel' id='carrossel' whileTap={{cursor: "grabbing"}}>
           <motion.div className='inner'
            drag="x"
             dragConstraints={{ right: 0, left: -width }}

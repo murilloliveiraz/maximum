@@ -20,16 +20,14 @@ img{
     width: 100%;
 }
 
-.padding-x {
-    padding: 0 36px;
-}
-
 main{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     flex-direction: column;
+    width: 100%;
+    overflow-x: auto;
 }
 
 body{

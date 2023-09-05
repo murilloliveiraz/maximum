@@ -1,4 +1,4 @@
-.OurServices{
+.ourServices{
     padding: 0 35px;
     display: flex;
     max-width: 1200px;
@@ -63,18 +63,21 @@ h1{
 @media  screen and (max-width: 600px) {
     .OurServices{
         padding: 0;
-        max-width: 600px;
+        width: 90%;
         margin-top: 30px;
     }
 
     .inner{
-        width: 100%;
+        width: 90%;
     }
 
     .carousel{
         display: flex;
-        width: 75%;
         align-items: center;
         justify-content: center;
+    }
+
+    #carrossel{
+        width: 300px;
     }
 }
