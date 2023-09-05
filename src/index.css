@@ -12,6 +12,10 @@
     color: #f6f6f6;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 img{
     width: 100%;
 }
@@ -31,4 +35,10 @@ main{
 body{
     background: #121212;
 
+}
+
+@media  screen and (max-width: 600px) {
+    .padding-x{
+        padding: 0;
+    }
 }

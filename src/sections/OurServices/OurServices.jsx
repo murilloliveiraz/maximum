@@ -13,7 +13,7 @@ const OurServices = () => {
   }, [])
 
   return (
-    <section className='OurServices'>
+    <section className='OurServices' id='ourServices'>
       <h1>Nossos Serviços</h1>
       <motion.div ref={carousel} className='carousel' whileTap={{cursor: "grabbing"}}>
           <motion.div className='inner'

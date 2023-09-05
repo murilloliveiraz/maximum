@@ -50,3 +50,19 @@
     scale: 102%;
 }
 
+@media  screen and (max-width: 600px) {
+    .reviews-section{
+        max-width: 600px;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .review{
+        width: 100%;
+    }
+
+    .article-reviews{
+        width: 90%;
+    }
+
+}

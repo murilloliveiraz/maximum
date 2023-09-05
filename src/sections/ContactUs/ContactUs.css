@@ -44,3 +44,26 @@ iframe{
 .icon2{
     width: 14px;
 }
+
+@media  screen and (max-width: 600px) {
+    .contact-section{
+        max-width: 600px;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .contacts{
+        width: 90%;
+        justify-content: center;
+    }
+
+    .contact-list{
+        width: 90%;
+    }
+
+    iframe{
+        width: 400px;
+        height: 400px;
+    }
+}

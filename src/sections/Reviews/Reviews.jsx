@@ -4,7 +4,7 @@ import { stars } from '../../assets/icons'
 
 const Reviews = () => {
   return (
-    <section className='reviews-section'>
+    <section className='reviews-section' id='reviews'>
       <h1>Avaliações</h1>
       <h2 className='cta'>Dê uma nova vida ao seu carro!</h2>
       <article className='article-reviews'>

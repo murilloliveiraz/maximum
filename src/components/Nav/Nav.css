@@ -18,15 +18,27 @@ nav{
     display: flex;
 }
 
-#menu-icon {
+.nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 50px;
+    display: none;
+}
+
+/* #menu-icon {
     display: none;
     font-size: 24px;
     cursor: pointer;
-}
+} */
 
 ul{
     display: flex;
     gap: 26px;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -44,4 +56,56 @@ a:hover{
 .logo-nav{
     width: 200px;
     height: 50px;
+}
+
+@media  screen and (max-width: 600px) {
+    header {
+        padding: 0;
+        position: fixed;
+        top: 10px;
+        z-index: 1;
+    }
+
+    .logo-nav{
+        width: 120px;
+        height: 40px;
+    }
+
+    .nav-btn{
+        display: block;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        height: 100%;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        transition: 1s;
+        background-color: rgba(23, 23, 23, 0.938);
+        transform: translateX(100vw);
+    }
+
+    .list-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .responsive_nav{
+        transform: none;
+    }
+
+    .nav-close-btn{
+        position: absolute;
+        top: 2rem;
+        right: 1rem;
+    }
 }

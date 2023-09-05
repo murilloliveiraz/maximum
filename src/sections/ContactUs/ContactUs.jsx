@@ -3,7 +3,7 @@ import {  call, instagram, location, open } from '../../assets/icons'
 
 const ContactUs = () => {
   return (
-    <section className='contact-section'>
+    <section className='contact-section' id='contactUs'>
       <article>
             <iframe
           title="Localização da Estética Automotiva"

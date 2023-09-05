@@ -4,7 +4,7 @@ import './AboutUs.css'
 const AboutUs = () => {
 
   return (
-    <section className='about-us'>
+    <section className='about-us' id='aboutUs'>
     <img src={frente} className='sobre-logo' alt="" />
       <div className='texto-sobre'>
         <h1 className='titulo-sobre'>Sobre Nós</h1>

@@ -30,3 +30,24 @@
     width: 554px;
     height: 235px;
 }
+
+@media  screen and (max-width: 600px) {
+    .hero-section{
+        padding: 0;
+        max-width: 100%;
+        flex-direction: column;
+        margin-top: 130px;
+    }
+
+    .logo{
+        width: 400px;
+        height: 200px;
+    }
+
+    .carro{
+        transform: translate(70px, 0);
+        width: 510px;
+        height: 410px;
+        z-index: 1;
+    }
+}

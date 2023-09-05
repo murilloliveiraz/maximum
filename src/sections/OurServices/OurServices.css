@@ -59,3 +59,22 @@ h1{
     font-size: 34px;
     color: #89DDE1;
 }
+
+@media  screen and (max-width: 600px) {
+    .OurServices{
+        padding: 0;
+        max-width: 600px;
+        margin-top: 30px;
+    }
+
+    .inner{
+        width: 100%;
+    }
+
+    .carousel{
+        display: flex;
+        width: 75%;
+        align-items: center;
+        justify-content: center;
+    }
+}
