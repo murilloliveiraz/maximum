@@ -29,9 +29,10 @@
     .about-us{
         max-width: 100%;
         justify-content: center;
+        align-items: center;
         flex-direction: column-reverse;
         height: auto;
-        margin: 60px 0;
+        margin: 60px auto;
         text-align: center;
     }
 
@@ -42,4 +43,28 @@
         gap: 32px;
     }
 
+    .sobre-logo{
+        margin-bottom: 40px;
+    }
+
+}
+
+@media  screen and (max-width: 992px){
+    .about-us{
+        flex-direction: column-reverse;
+        height: 800px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width: 1200px){
+    .about-us{
+        width: 90%;
+    }
+
+    .sobre-logo{
+        width: 300px;
+        height: 300px;
+    }
 }

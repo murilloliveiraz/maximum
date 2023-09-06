@@ -109,3 +109,9 @@ a:hover{
         right: 1rem;
     }
 }
+
+@media  screen and (max-width: 992px){
+    ul{
+        gap: 14px;
+    }
+}

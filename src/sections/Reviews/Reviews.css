@@ -70,3 +70,9 @@
     }
 
 }
+
+@media  screen and (max-width: 992px){
+    .article-reviews{
+        width: 90%;
+    }
+}

@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    overflow: hidden;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -14,6 +15,7 @@
     display: flex;
     margin-top: 36px;
     width: 100%;
+    overflow: hidden;
     min-height: 600px;
     justify-content: center;
     align-items: center;
@@ -40,18 +42,49 @@
 
     .logo{
         width: 90%;
-        height: 160px;
+        max-height: 160px;
     }
 
     .div-hero-logo{
-        width: 100%;
+        max-width: 100%;
         display: flex;
         justify-content: center;
     }
 
     .carro{
         transform: translate(70px, 0);
-        width: 510px;
-        height: 410px;
+        max-width: 510px;
+        max-height: 410px;
+    }
+}
+
+@media  screen and (max-width: 992px){
+    .hero-section{
+        flex-direction: column;
+    }
+
+    .carro{
+        transform: translate(70px, 0);
+        width: 710px;
+        height: 510px;
+    }
+}
+
+@media  screen and (max-width: 1200px){
+    .carro{
+        transform: translate(90px, 0);
+        width: 610px;
+        height: 510px;
+    }
+    
+    .div-hero-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        width: 90%;
+        max-height: 180px ;
     }
 }

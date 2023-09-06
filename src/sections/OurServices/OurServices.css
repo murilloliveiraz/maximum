@@ -61,10 +61,11 @@ h1{
 }
 
 @media  screen and (max-width: 600px) {
-    .OurServices{
+    .ourServices{
         padding: 0;
-        width: 90%;
+        width: 100%;
         margin-top: 30px;
+        min-height: 500px;
     }
 
     .inner{
@@ -78,13 +79,26 @@ h1{
     }
 
     #carrossel{
-        width: 300px;
+        width: 330px;
     }
 }
 
 
 @media  screen and (max-width: 760px){
     #carrossel{
-        width: 360px;
+        width: 380px;
+    }
+}
+
+
+@media  screen and (max-width: 992px){
+    #carrossel{
+        width: 700px;
+    }
+}
+
+@media  screen and (max-width: 1200px){
+    #carrossel{
+        max-width: 900px;
     }
 }
