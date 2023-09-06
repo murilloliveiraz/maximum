@@ -49,7 +49,8 @@ iframe{
     .contact-section{
         max-width: 600px;
         flex-direction: column-reverse;
-        margin-top: 50px;
+        margin: 50px auto;
+        align-items: center;
         justify-content: center;
     }
 
@@ -63,8 +64,8 @@ iframe{
     }
 
     iframe{
-        width: 300px;
-        height: 300px;
+        max-width: 300px;
+        max-height: 300px;
     }
 }
 
@@ -80,7 +81,7 @@ iframe{
    }
    
     iframe{
-    max-width: 350px;
-    max-height: 350px;
+    width: 350px;
+    height: 350px;
    }
 }

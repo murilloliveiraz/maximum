@@ -64,7 +64,7 @@ h1{
     .ourServices{
         padding: 0;
         width: 100%;
-        margin-top: 30px;
+        margin-top: 60px;
         min-height: 500px;
     }
 
@@ -79,26 +79,27 @@ h1{
     }
 
     #carrossel{
-        width: 330px;
+        max-width: 330px;
     }
 }
 
 
 @media  screen and (max-width: 760px){
     #carrossel{
-        width: 380px;
+        max-width: 380px;
     }
 }
 
 
-@media  screen and (max-width: 992px){
-    #carrossel{
-        width: 700px;
+@media  screen and (max-width: 990px){
+    .carousel{
+        max-width: 600px;
     }
+
 }
 
 @media  screen and (max-width: 1200px){
     #carrossel{
-        max-width: 900px;
+        width: 900px;
     }
 }

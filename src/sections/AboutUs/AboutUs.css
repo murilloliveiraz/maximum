@@ -52,15 +52,22 @@
 @media  screen and (max-width: 992px){
     .about-us{
         flex-direction: column-reverse;
-        height: 800px;
+        height: 700px;
         margin-bottom: 60px;
         text-align: center;
+        margin: 0px auto;
     }
+
+    .titulo-sobre{
+        margin-bottom: 26px;
+    }
+
 }
 
 @media  screen and (max-width: 1200px){
     .about-us{
         width: 90%;
+        margin: 60px auto;
     }
 
     .sobre-logo{

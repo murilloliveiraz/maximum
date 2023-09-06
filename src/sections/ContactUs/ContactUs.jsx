@@ -17,7 +17,7 @@ const ContactUs = () => {
         ></iframe>
       </article>
       <aside className='contacts'>
-        <div>
+        <div className='contacts-div'>
            <h2 className='contact-title'>Experimente a diferença da nossa estética automotiva!</h2>
           <p>Visite-nos hoje ou entre em contato para um serviço excepcional</p>
         </div>
