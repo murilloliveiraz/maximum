@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <section className='hero-section' id='hero'>
       <div className='div-hero-logo'>
-        <img src={logomini} className='logo' alt="" />
+        <img src={logomini} className='logo' alt="Logo" />
       </div>
       <div>
-        <img src={bmwX6} className='carro' alt="" />
+        <img src={bmwX6} className='carro' alt="carro" />
       </div>
     </section>
   )

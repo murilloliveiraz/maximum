@@ -23,7 +23,7 @@ const Nav = () => {
     <header className='header'>
         <img src={logopng} height={80} className='logo-nav' alt="" />
         <button className='nav-btn' onClick={showNavBar}>
-          <img src={menu} id='menu-icon' alt="" />
+          <img src={menu} id='menu-icon' alt="Logo" />
         </button>
       <nav ref={navRef}>
         <ul className='list-items'>
