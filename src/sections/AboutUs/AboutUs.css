@@ -31,9 +31,9 @@
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;
-        height: auto;
         margin: 60px auto;
         text-align: center;
+        min-height: 900px;
     }
 
     .texto-sobre{
@@ -41,6 +41,8 @@
         display: flex;
         flex-direction: column;
         gap: 32px;
+        margin-top: 100px;
+        height: 700px;
     }
 
     .sobre-logo{
