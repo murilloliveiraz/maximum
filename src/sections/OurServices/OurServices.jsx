@@ -31,7 +31,7 @@ const OurServices = () => {
               ))}
           </motion.div>
       </motion.div>
-
+              <h3 className='ourServicesP'>Maximize a beleza do seu veículo! Descubra nossas promoções e pacotes exclusivos. Contate-nos já!</h3>
     </section>
   )
 }

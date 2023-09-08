@@ -1,28 +1,36 @@
-import { bancos, camionete, martelinho, nivus, rodas, virtus} from '../../assets/images'
+import { nivus, bancos, detalhamento, lavagem, motor, camionete, pintura, virtus} from '../../assets/images'
 
 export const services = [
     {
         imgURL: bancos,
-        name: "Higienização de Bancos"
+        name: "Higienização de couro e tecidos"
     },
     {
-        imgURL: camionete,
-        name: "Lavagem Completa"
+        imgURL: lavagem,
+        name: "Lavagem simples"
     },
     {
         imgURL: nivus,
-        name: "Polimento e Enceramento"
+        name: "Polimento"
     },
     {
-        imgURL: martelinho,
-        name: "Martelinho de Ouro"
+        imgURL: detalhamento,
+        name: "Lavagem detalhada"
     },
     {
-        imgURL: rodas,
-        name: "Recondicionamento de Rodas"
+        imgURL: motor,
+        name: "Limpeza de Motor"
+    },
+    {
+        imgURL: pintura,
+        name: "Descontaminação e enceramento"
+    },
+    {
+        imgURL: camionete,
+        name: "Lavagem com cera"
     },
     {
         imgURL: virtus,
-        name: "Reparo de Arranhões e Pintura"
+        name: "Cristalização de parabriza"
     },
 ];
