@@ -9,6 +9,8 @@ import nivus from './nivus.jpg'
 import polimento from './polimento.png'
 import virtus from './virtus.jpg'
 import bancos from './bancos.jpg'
+import bancos2 from './bancos2.jpg'
+import bancos3 from './bancos3.jpg'
 import blackBackground from './black-background.jpg'
 import letterG from './letterG.png'
 import letterM from './letterM.png'
@@ -21,6 +23,8 @@ import lavagem from './lavagem.jpg'
 export{
     bmwX6,
     bancos,
+    bancos2,
+    bancos3,
     logo,
     camionete,
     detalhamento,

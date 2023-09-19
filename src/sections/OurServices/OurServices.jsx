@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-
+import { Link } from 'react-router-dom'
 import './OurServices.css'
 import { services } from './constants.js'
 import { motion } from 'framer-motion'
@@ -12,6 +12,7 @@ const OurServices = () => {
     setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
   }, [])
 
+
   return (
     <section className='ourServices' id='ourServices'>
       <h1>Nossos Serviços</h1>
@@ -23,10 +24,11 @@ const OurServices = () => {
             animate={{x: 0}}
             transition={{duration: 0.8}}
             >
-            { services.map((service) => (
-              <motion.div className='card' key={service.name}>
+            { services.map((service, index) => (
+              <motion.div className='card' key={index}>
                 <img src={service.imgURL} alt={service.name}  className='card-img'/>
                 <h3 className='card-title'>{service.name}</h3>
+                <Link to={`service/${index}`}><button>Ver Detalhes</button></Link>
               </motion.div>
               ))}
           </motion.div>

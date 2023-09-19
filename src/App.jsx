@@ -1,29 +1,17 @@
-import { AboutUs, ContactUs, Footer, Hero, OurServices, Reviews } from './sections'
-import Nav from './components/Nav/Nav'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Home from './components/Home'
+import Service from './components/Service'
 
 
 const App = () => {
 
   return (
-    <main >
-      <section className='hero'>
-        <Nav/>
-        <Hero />
-      </section>
-      <section>
-        <AboutUs/>
-      </section>
-      <section>
-        < OurServices/>
-      </section>
-      <section>
-        <Reviews />
-      </section>
-      <section>
-        <ContactUs/>
-      </section>
-      <Footer />
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/service/:id' element={<Service />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
