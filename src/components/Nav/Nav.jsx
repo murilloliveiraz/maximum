@@ -30,10 +30,10 @@ const Nav = () => {
           <button className='nav-btn nav-close-btn' onClick={showNavBar}>
             <img src={close} id='menu-icon' alt="" />
           </button>
-          <li><a href="#aboutUs">Sobre Nós</a></li>
-          <li><a href="#ourServices">Serviços</a></li>
-          <li><a href="#reviews">Avaliações</a></li>
-          <li><a href="#contactUs">Contato</a></li>
+          <li><a className='navA' href="#aboutUs">Sobre Nós</a></li>
+          <li><a className='navA' href="#ourServices">Serviços</a></li>
+          <li><a className='navA' href="#reviews">Avaliações</a></li>
+          <li><a className='navA' href="#contactUs">Contato</a></li>
         </ul>
       </nav>
 

@@ -2,7 +2,7 @@ import { nivus, bancos, detalhamento, lavagem, motor, camionete, pintura, virtus
 
 export const services = [
     {
-        imgURL: bancos,
+        imgURL: bancos3,
         name: "Higienização de couro e tecidos",
         descricaoTitle: "Renove o Interior do seu Veículo com Nossa Higienização de Couro e Tecidos!",
         descricaoParagrafo: "Oferecemos um serviço especializado de higienização de couro e tecidos para dar ao interior do seu veículo uma aparência e sensação frescas. Nosso processo inclui:",

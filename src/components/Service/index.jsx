@@ -19,7 +19,7 @@ const Service = () => {
   const imagens = service.etapasImagens;
   return (
     <section className='servicoCompleto'>
-      <h1>{service.name}</h1>
+      <h1 className='serviceTitle'>{service.name}</h1>
       <motion.div ref={carousel} className='carouselImagens' whileTap={{cursor: "grabbing"}}>
           <motion.div className='inner'
            drag="x"
@@ -35,7 +35,7 @@ const Service = () => {
               ))}
           </motion.div>
       </motion.div>
-      <h3>{service.descricaoTitle}</h3>
+      <h3 className='serviceH3'>{service.descricaoTitle}</h3>
       <p className='textoEtapa'>{service.descricaoParagrafo}</p>
       <ul className='etapas'>
         {details.map((detail, index) => (

@@ -28,7 +28,7 @@ const OurServices = () => {
               <motion.div className='card' key={index}>
                 <img src={service.imgURL} alt={service.name}  className='card-img'/>
                 <h3 className='card-title'>{service.name}</h3>
-                <Link to={`service/${index}`}><button>Ver Detalhes</button></Link>
+                <Link to={`service/${index}`}><button className='botao'>Ver Detalhes</button></Link>
               </motion.div>
               ))}
           </motion.div>

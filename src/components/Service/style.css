@@ -48,12 +48,19 @@
     font-size: 14px;
 }
 
-.botao{
-    width: 100px;
-    height: 40px;
-    background-color: #89dde1;
-    border-radius: 8px;
-    border: none;
-    color: #121212;
-}
 
+@media screen and (max-width: 768px) {
+    .serviceTitle{
+        font-size: 22px;
+    }
+
+    .imagemServico{
+        width: 300px;
+        height: 350px;
+    }
+
+    .serviceH3{
+        font-size: 18px;
+        margin-bottom: 28px;
+    }
+}
